@@ -726,47 +726,62 @@ footer{
     text-decoration: none;
 }
 
-.icon-wrapper{
-    color: white;
-    display: flex;
-    gap: 1rem;
+.icon-project-linkedin{
     cursor: pointer;
+    color: white;
     font-size: 35px;
     transition: all 0.4s;
-    text-decoration: none;
 }
 
-.icon {
-    text-decoration: none;
+.icon-project-linkedin:hover{
+    color: #00aced;
+}
+
+
+.icon-project-github{
+    cursor: pointer;
     color: white;
+    font-size: 35px;
+    transition: all 0.4s;
 }
 
-#github:hover{
-    background-color: #8e32ac;
-    border-radius: 80%;
-    border: none;
+.icon-project-github:hover{
+    color: #8e32ac;
 }
 
-#twitter:hover {
-    background-color: #00aced;
-    border: none;
+.icon-project-twitter{
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+    transition: all 0.4s;
 }
 
-#linkedin:hover {
-    background-color: #007bb6;
-    border: none;
+.icon-project-twitter:hover{
+    color: #00aced;
 }
 
-#instagram:hover {
-    background-color: #ee00da;
-    border-radius: 98%;
-    border: none;
+.icon-project-instagram{
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+    transition: all 0.4s;
 }
 
-#envelope:hover{
-    background-color: var(--bgOrange);
-    border: none;
+.icon-project-instagram:hover{
+    color: #ee00da;
 }
+
+.icon-project-envelope{
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+    transition: all 0.4s;
+}
+
+.icon-project-envelope:hover{
+    color: var(--bgOrange);
+}
+
 
 .experience-section{
     position: relative;
