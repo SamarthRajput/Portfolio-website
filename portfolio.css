@@ -76,6 +76,7 @@ a{
     font-weight: bold;
 }
 
+
 .checkbox {
     opacity: 0;
     position: absolute;
@@ -113,8 +114,8 @@ a{
     transform: translateX(24px);
   }
 
-@media (max-width:1300px){
-    
+@media (max-width:1150px){
+
 }
 
 
@@ -725,36 +726,60 @@ footer{
     text-decoration: none;
 }
 
-.icon-wrapper{
-    display: flex;
-    gap: 1rem;
+.icon-project-linkedin{
     cursor: pointer;
+    color: black;
     font-size: 35px;
     transition: all 0.4s;
 }
 
-#github:hover{
-    background-color: #8e32ac;
-    /* border: 2px black; */
-    border-radius: 80%;
+.icon-project-linkedin:hover{
+    color: #00aced;
 }
 
-#twitter:hover {
-    background-color: #00aced;
-    /* border-radius: 80%; */
+
+.icon-project-github{
+    cursor: pointer;
+    color: black;
+    font-size: 35px;
+    transition: all 0.4s;
 }
 
-#linkedin:hover {
-    background-color: #007bb6;
+.icon-project-github:hover{
+    color: #8e32ac;
 }
 
-#instagram:hover {
-    background-color: #ee00da;
-    border-radius: 98%;
+.icon-project-twitter{
+    cursor: pointer;
+    color: black;
+    font-size: 35px;
+    transition: all 0.4s;
 }
 
-#envelope:hover{
-    background-color: var(--bgOrange);
+.icon-project-twitter:hover{
+    color: #00aced;
+}
+
+.icon-project-instagram{
+    cursor: pointer;
+    color: black;
+    font-size: 35px;
+    transition: all 0.4s;
+}
+
+.icon-project-instagram:hover{
+    color: #ee00da;
+}
+
+.icon-project-envelope{
+    cursor: pointer;
+    color: black;
+    font-size: 35px;
+    transition: all 0.4s;
+}
+
+.icon-project-envelope:hover{
+    color: var(--bgOrange);
 }
 
 .experience-section{
